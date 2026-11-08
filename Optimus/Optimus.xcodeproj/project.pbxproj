@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12C767B557E55A10E9545E72 /* OptimusSampler in Embed Sampler Binary */ = {isa = PBXBuildFile; fileRef = 4CE821CB03E327D54A79F75B /* OptimusSampler */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		3DE4E97BA79E430A911BBFBE /* OptimusFanHelper in Embed Fan Helper Binary */ = {isa = PBXBuildFile; fileRef = FF5DC369AC5443D1938AAD51 /* OptimusFanHelper */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		4841C7305ADB454A9E9C3B4F /* com.ajm.Optimus.FanHelper.plist in Embed Fan Helper LaunchDaemon Plist */ = {isa = PBXBuildFile; fileRef = 55A7F457B5A746918E350FDF /* com.ajm.Optimus.FanHelper.plist */; };
+		4C25247F23F7B84F700F642D /* com.ajm.Optimus.Sampler.plist in Embed LaunchAgent Plist */ = {isa = PBXBuildFile; fileRef = 1AF5D61F9E652B6DF17E143F /* com.ajm.Optimus.Sampler.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E2E72C233076FF0A0BDADE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11B80D99305A8FE400534CF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B940AFE96188D4E98E6A78CA;
+			remoteInfo = OptimusSampler;
+		};
+		70940FF2F6BD4453851161C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11B80D99305A8FE400534CF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C14FA1FFFA574991BB3C3B91;
+			remoteInfo = OptimusFanHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		43B1B193453740B3BDAE918E /* Embed LaunchAgent Plist */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LaunchAgents;
+			dstSubfolderSpec = 1;
+			files = (
+				4C25247F23F7B84F700F642D /* com.ajm.Optimus.Sampler.plist in Embed LaunchAgent Plist */,
+			);
+			name = "Embed LaunchAgent Plist";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F09000F5244E629B660803 /* Embed Fan Helper Binary */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				3DE4E97BA79E430A911BBFBE /* OptimusFanHelper in Embed Fan Helper Binary */,
+			);
+			name = "Embed Fan Helper Binary";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		665AB8BE4C5F4FC29238950D /* Embed Fan Helper LaunchDaemon Plist */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LaunchDaemons;
+			dstSubfolderSpec = 1;
+			files = (
+				4841C7305ADB454A9E9C3B4F /* com.ajm.Optimus.FanHelper.plist in Embed Fan Helper LaunchDaemon Plist */,
+			);
+			name = "Embed Fan Helper LaunchDaemon Plist";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		788380B2F6BA4E98BFFC34BC /* Embed Sampler Binary */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				12C767B557E55A10E9545E72 /* OptimusSampler in Embed Sampler Binary */,
+			);
+			name = "Embed Sampler Binary";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		11B80DA1305A8FE400534CF8 /* Optimus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Optimus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AF5D61F9E652B6DF17E143F /* com.ajm.Optimus.Sampler.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = com.ajm.Optimus.Sampler.plist; sourceTree = "<group>"; };
+		4CE821CB03E327D54A79F75B /* OptimusSampler */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "compiled.mach-o.executable"; path = OptimusSampler; sourceTree = BUILT_PRODUCTS_DIR; };
+		5039B8A985345013C501C812 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		55A7F457B5A746918E350FDF /* com.ajm.Optimus.FanHelper.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = com.ajm.Optimus.FanHelper.plist; sourceTree = "<group>"; };
+		FF5DC369AC5443D1938AAD51 /* OptimusFanHelper */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = text; path = OptimusFanHelper; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		11B80DB0305A932900534CF8 /* Exceptions for "Optimus" folder in "Optimus" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 11B80DA0305A8FE400534CF8 /* Optimus */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		11B80DA3305A8FE400534CF8 /* Optimus */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				11B80DB0305A932900534CF8 /* Exceptions for "Optimus" folder in "Optimus" target */,
+			);
+			path = Optimus;
+			sourceTree = "<group>";
+		};
+		20C4FE9E2FE93B0D8E637F63 /* OptimusCore */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OptimusCore;
+			sourceTree = "<group>";
+		};
+		502B9443CEA74714BEFC6C0D /* OptimusFanHelper */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OptimusFanHelper;
+			sourceTree = "<group>";
+		};
+		D7371D6181F7A75A2EF81223 /* OptimusSampler */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OptimusSampler;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11B80D9E305A8FE400534CF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		276E9069C25D4C3D8B55B644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7DBA73B61FFA98780E18374 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11B80D98305A8FE400534CF8 = {
+			isa = PBXGroup;
+			children = (
+				11B80DA3305A8FE400534CF8 /* Optimus */,
+				11B80DA2305A8FE400534CF8 /* Products */,
+				E7D52664AC732189035CA21D /* Frameworks */,
+				D7371D6181F7A75A2EF81223 /* OptimusSampler */,
+				694FD865F629ED566E0F1722 /* LaunchAgent */,
+				20C4FE9E2FE93B0D8E637F63 /* OptimusCore */,
+				502B9443CEA74714BEFC6C0D /* OptimusFanHelper */,
+				D029FF2DA20E48DFB372EA8D /* LaunchDaemon */,
+			);
+			sourceTree = "<group>";
+		};
+		11B80DA2305A8FE400534CF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11B80DA1305A8FE400534CF8 /* Optimus.app */,
+				4CE821CB03E327D54A79F75B /* OptimusSampler */,
+				FF5DC369AC5443D1938AAD51 /* OptimusFanHelper */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		694FD865F629ED566E0F1722 /* LaunchAgent */ = {
+			isa = PBXGroup;
+			children = (
+				1AF5D61F9E652B6DF17E143F /* com.ajm.Optimus.Sampler.plist */,
+			);
+			path = LaunchAgent;
+			sourceTree = "<group>";
+		};
+		8C0E2CA8C82829C7C2CC995B /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				5039B8A985345013C501C812 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		D029FF2DA20E48DFB372EA8D /* LaunchDaemon */ = {
+			isa = PBXGroup;
+			children = (
+				55A7F457B5A746918E350FDF /* com.ajm.Optimus.FanHelper.plist */,
+			);
+			path = LaunchDaemon;
+			sourceTree = "<group>";
+		};
+		E7D52664AC732189035CA21D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C0E2CA8C82829C7C2CC995B /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11B80DA0305A8FE400534CF8 /* Optimus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11B80DAC305A8FE500534CF8 /* Build configuration list for PBXNativeTarget "Optimus" */;
+			buildPhases = (
+				11B80D9D305A8FE400534CF8 /* Sources */,
+				11B80D9E305A8FE400534CF8 /* Frameworks */,
+				11B80D9F305A8FE400534CF8 /* Resources */,
+				788380B2F6BA4E98BFFC34BC /* Embed Sampler Binary */,
+				43B1B193453740B3BDAE918E /* Embed LaunchAgent Plist */,
+				47F09000F5244E629B660803 /* Embed Fan Helper Binary */,
+				665AB8BE4C5F4FC29238950D /* Embed Fan Helper LaunchDaemon Plist */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD8F3A0BAD61AEC656393C8C /* PBXTargetDependency */,
+				59211295F15A48F88D075360 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				11B80DA3305A8FE400534CF8 /* Optimus */,
+				20C4FE9E2FE93B0D8E637F63 /* OptimusCore */,
+			);
+			name = Optimus;
+			productName = Optimus;
+			productReference = 11B80DA1305A8FE400534CF8 /* Optimus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B940AFE96188D4E98E6A78CA /* OptimusSampler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98989F29CDAF5F369F69B5B2 /* Build configuration list for PBXNativeTarget "OptimusSampler" */;
+			buildPhases = (
+				654BF4F0C56BC79B8DAD0C67 /* Sources */,
+				C7DBA73B61FFA98780E18374 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				20C4FE9E2FE93B0D8E637F63 /* OptimusCore */,
+				D7371D6181F7A75A2EF81223 /* OptimusSampler */,
+			);
+			name = OptimusSampler;
+			productName = OptimusSampler;
+			productReference = 4CE821CB03E327D54A79F75B /* OptimusSampler */;
+			productType = "com.apple.product-type.tool";
+		};
+		C14FA1FFFA574991BB3C3B91 /* OptimusFanHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A6843E440E2428C8D2B3B3E /* Build configuration list for PBXNativeTarget "OptimusFanHelper" */;
+			buildPhases = (
+				8E1491EF874A4119822F4AF8 /* Sources */,
+				276E9069C25D4C3D8B55B644 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				20C4FE9E2FE93B0D8E637F63 /* OptimusCore */,
+				502B9443CEA74714BEFC6C0D /* OptimusFanHelper */,
+			);
+			name = OptimusFanHelper;
+			productName = OptimusFanHelper;
+			productReference = FF5DC369AC5443D1938AAD51 /* OptimusFanHelper */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11B80D99305A8FE400534CF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					11B80DA0305A8FE400534CF8 = {
+						CreatedOnToolsVersion = 26.6;
+					};
+				};
+			};
+			buildConfigurationList = 11B80D9C305A8FE400534CF8 /* Build configuration list for PBXProject "Optimus" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11B80D98305A8FE400534CF8;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 11B80DA2305A8FE400534CF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11B80DA0305A8FE400534CF8 /* Optimus */,
+				B940AFE96188D4E98E6A78CA /* OptimusSampler */,
+				C14FA1FFFA574991BB3C3B91 /* OptimusFanHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11B80D9F305A8FE400534CF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11B80D9D305A8FE400534CF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654BF4F0C56BC79B8DAD0C67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E1491EF874A4119822F4AF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59211295F15A48F88D075360 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OptimusFanHelper;
+			target = C14FA1FFFA574991BB3C3B91 /* OptimusFanHelper */;
+			targetProxy = 70940FF2F6BD4453851161C6 /* PBXContainerItemProxy */;
+		};
+		DD8F3A0BAD61AEC656393C8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OptimusSampler;
+			target = B940AFE96188D4E98E6A78CA /* OptimusSampler */;
+			targetProxy = 1E2E72C233076FF0A0BDADE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11B80DAA305A8FE500534CF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11B80DAB305A8FE500534CF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		11B80DAD305A8FE500534CF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Optimus/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajm.Optimus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		11B80DAE305A8FE500534CF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Optimus/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajm.Optimus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		374E64906234C509389A09EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 26.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C319C4198F634F8D9D8D3208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 26.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EC41AB0B925B4C4882E9AE02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 26.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FDE6EE194D8A80E3B90CFE04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 26.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11B80D9C305A8FE400534CF8 /* Build configuration list for PBXProject "Optimus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B80DAA305A8FE500534CF8 /* Debug */,
+				11B80DAB305A8FE500534CF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11B80DAC305A8FE500534CF8 /* Build configuration list for PBXNativeTarget "Optimus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B80DAD305A8FE500534CF8 /* Debug */,
+				11B80DAE305A8FE500534CF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A6843E440E2428C8D2B3B3E /* Build configuration list for PBXNativeTarget "OptimusFanHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC41AB0B925B4C4882E9AE02 /* Debug */,
+				C319C4198F634F8D9D8D3208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98989F29CDAF5F369F69B5B2 /* Build configuration list for PBXNativeTarget "OptimusSampler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				374E64906234C509389A09EF /* Release */,
+				FDE6EE194D8A80E3B90CFE04 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11B80D99305A8FE400534CF8 /* Project object */;
+}
